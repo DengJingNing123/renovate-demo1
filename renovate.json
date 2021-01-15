@@ -7,7 +7,7 @@
     "enabled": true
   },
   "packageRules": [{
-    "packageNames": [".*"],
+    "packagePatterns": [".*"],
     "automerge": true
   }]
 }
