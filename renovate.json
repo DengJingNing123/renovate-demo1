@@ -12,8 +12,9 @@
   },{
     "packageNames": ["github.com/dlclark/regexp2"],
     "automerge": true
-  },{
-    "packageNames": ["regexp2"],
+  },
+  {
+    "packagePatterns": [".*regexp2.*"],
     "automerge": true
   }]
 }
