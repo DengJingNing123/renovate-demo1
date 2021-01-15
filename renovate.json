@@ -3,14 +3,17 @@
     "config:base"
   ],
   "timezone": "Asia/Shanghai",
-  "schedule": "before 6pm",
   "lockFileMaintenance": {
-    "enabled": true,
-    "schedule": "before 6pm"
+    "enabled": true
   },
   "packageRules": [{
     "packageNames": ["gin"],
-    "schedule": "before 6pm",
+    "automerge": true
+  },{
+    "packageNames": ["github.com/dlclark/regexp2"],
+    "automerge": true
+  },{
+    "packageNames": ["regexp2"],
     "automerge": true
   }]
 }
