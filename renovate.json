@@ -7,14 +7,7 @@
     "enabled": true
   },
   "packageRules": [{
-    "packageNames": ["gin"],
-    "automerge": true
-  },{
-    "packageNames": ["github.com/dlclark/regexp2"],
-    "automerge": true
-  },
-  {
-    "packagePatterns": [".*regexp2.*"],
+    "packageNames": [".*"],
     "automerge": true
   }]
 }
